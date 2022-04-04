@@ -1,5 +1,5 @@
 # terraform-azure-vm-ubuntu
-Criação de uma VM no Azure, com ubuntu e apache instalados via terraform e azure cli
+Create a VM in Azure, with ubuntu and apache2 installeds by terraform and azure cli
 
 * To provide resources
 
@@ -11,4 +11,4 @@ terraform init
 
 terraform plan
 
-terraform apply
+terraform apply -auto-approve
