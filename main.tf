@@ -141,8 +141,8 @@ resource "null_resource" "install-apache" {
     connection {
         type = "ssh"
         host = data.azurerm_public_ip.ip-aula.ip_address
-        user = var.user
-        password = var.password
+        user = var.adminuser
+        password = var.adminpassword
     }
 
     provisioner "remote-exec" {
